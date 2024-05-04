@@ -7,7 +7,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Italianno&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Oswald:wght@200..700&family=Yellowtail&display=swap"
       rel="stylesheet"
     />
     <style>
@@ -23,9 +35,9 @@
       nav {
         display: flex;
         justify-content: space-around;
-        align-items: center;
-        height: 80px;
-        background-color: rgb(12, 12, 85);
+        /* align-items: center; */
+        height: 120px;
+        background-color: rgb(0, 0, 33);
       }
       nav ul {
         display: flex;
@@ -40,10 +52,17 @@
         color: white;
       }
       nav ul li a:hover {
-        color: rgb(142, 142, 227);
+        color: rgb(232, 219, 100);
       }
       .left {
-        font-size: 1.5rem;
+        font-size: 5.5rem;
+        font-family: "Italianno", cursive;
+        font-weight: 400;
+        margin: 13px 0;
+        font-style: normal;
+      }
+      .right {
+        margin: 35px 0;
       }
       .firstSection {
         display: flex;
@@ -54,12 +73,19 @@
       .firstSection > div {
         width: 32%;
       }
-      .leftSection {
-        font-size: 3rem;
+      .leftsection {
+        text-align: center;
+      }
+      .hello {
+        font-size: 1rem;
+      }
+      .button {
+        display: flex;
       }
       .btn {
         background-color: #1e2167;
         color: white;
+        margin: 15px 5px;
         padding: 12px;
         border: 2px solid white;
         border-radius: 6px;
@@ -70,6 +96,13 @@
         width: 80%;
       }
       .purple {
+        margin: 0;
+        padding: 0;
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 5rem;
         color: blueviolet;
       }
       .text-gray {
@@ -147,7 +180,7 @@
   <body>
     <header>
       <nav>
-        <div class="left">Ajeet's Portfolio</div>
+        <div class="left">Portfolio</div>
         <div class="right">
           <ul>
             <li><a href="">Home</a></li>
@@ -162,7 +195,8 @@
     <main>
       <section class="firstSection">
         <div class="leftSection">
-          Hi, My Name is <span class="purple">Ajeet</span>
+          <span class="hello">Hello, I am</span><br />
+          <span class="purple">Ajeet Prajapat</span>
           <div>and I am a passionate</div>
           <div>Developer</div>
           <!-- This too -->
